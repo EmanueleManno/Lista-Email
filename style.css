@@ -1,0 +1,58 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*UTILITIES*/
+body {
+    font-family: sans-serif;
+}
+
+/*GENERICS*/
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/*ROOT*/
+#root {
+    background-image: linear-gradient( rgb(21, 86, 44), rgb(90, 255, 109) );
+    height: 100vh;
+}
+
+/*SPAZIO APPLICAZIONE*/
+.application {
+    height: 90vh;
+    width: 90%;
+}
+
+/*TITOLO APPLICAZIONE*/
+h1 {
+    padding: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+/*IMMAGINI DEL TITOLO*/
+.title-space img {
+    height: 50px;
+    width: 50px;
+}
+
+/*SPAZIO MAIL STAMPATE*/
+#email-space {
+    background-image: linear-gradient( rgb(154, 224, 156), rgb(115, 188, 26) );
+    height: 75vh;
+    width: 75%;
+}
+
+/*LISTA*/
+li {
+    list-style-type: none;
+    font-size: 25px;
+    color: darkgreen;
+    font-weight: bold;
+}
